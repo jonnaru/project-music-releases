@@ -1,0 +1,18 @@
+main,
+header {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 16px;
+}
+
+/* TABLET/MOBILE */
+@media (max-width: 1024px) {
+  main,
+  header {
+    width: 90%;
+  }
+}

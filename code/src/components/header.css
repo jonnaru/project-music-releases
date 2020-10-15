@@ -1,0 +1,13 @@
+.header {
+  color: #fff;
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hr {
+  margin: 12px;
+  margin-top: 6px;
+  border-color: #a0a0a0;
+  opacity: 0.5;
+}

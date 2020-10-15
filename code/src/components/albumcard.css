@@ -1,0 +1,30 @@
+.album-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: auto;
+  padding: 12px;
+}
+
+.title {
+  height: 124px;
+}
+
+/* TABLET */
+@media (max-width: 1024px) {
+  .album-card {
+    width: 50%;
+  }
+}
+
+.title {
+  height: 100px;
+}
+
+/* MOBILE */
+@media (max-width: 668px) {
+  .album-card {
+    width: 100%;
+  }
+}
