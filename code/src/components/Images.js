@@ -15,7 +15,7 @@ export const Images = (props) => {
 
   return (
     <div className="imageContainer">
-      <img className="albumCover" src={img}></img>
+      <img className="albumCover" alt="album cover" src={img}></img>
       <div className="icons">
         <span className="heart">
           <Heart />
